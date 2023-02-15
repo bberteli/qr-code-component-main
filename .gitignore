@@ -15,5 +15,6 @@
 .DS_Store
 .prettierignore
 
+pro-assets/
 README-template.md
 README_.md

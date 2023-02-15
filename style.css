@@ -1,0 +1,93 @@
+ /* colors */
+
+ :root {
+  --light-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --light-gray: hsl(212, 45%, 89%);
+  --white: hsl(0, 0%, 100%);
+
+  --ff-primary: 'Outfit', sans-serif;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --fs-big: 22px;
+  --fs-small: 15px;
+}
+
+/* containers */
+
+html,
+main,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-gray);
+  font-family: var(--ff-primary);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-box {
+  border-radius: 1.25rem;
+  text-align: center;
+  width: 320px;
+  height: 497px;
+  background-color: var(--white);
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+.qr-code {
+  border-radius: 0.625rem;
+  max-width: calc(100% - 2rem);
+}
+
+.text-container {
+  padding: 0 1.8rem;
+}
+
+/* type classes */
+
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.text-title {
+  font-size: var(--fs-big);
+  margin: 1.5rem 0;
+  color: var(--dark-blue);
+}
+
+.text-main {
+  font-size: var(--fs-small);
+  color: var(--light-blue);
+}
+
+/* general styles */
+
+.drop-shadow {
+  box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 25%);
+}
+
+/* Frontend Mentor default */
+
+.attribution {
+  height: calc(100% - 1.2rem);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -46,7 +46,7 @@ body {
 
 .qr-code {
   border-radius: 0.625rem;
-  max-width: calc(100% - 2rem);
+  max-width: calc(99% - 2rem);
 }
 
 .text-container {
@@ -65,7 +65,7 @@ body {
 
 .text-title {
   font-size: var(--fs-big);
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 1rem;
   color: var(--dark-blue);
 }
 
@@ -77,13 +77,13 @@ body {
 /* general styles */
 
 .drop-shadow {
-  box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 25%);
+  box-shadow: 0px 4px 25px 4px rgb(0, 0, 0, 10%);
 }
 
 /* Frontend Mentor default */
 
 .attribution {
-  height: calc(100% - 1.2rem);
+  height: 100%;
   font-size: 11px;
   text-align: center;
 }
